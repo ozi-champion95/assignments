@@ -1,8 +1,8 @@
 FROM python 
 
-WORKDIR /apps
+WORKDIR /pyhtonapp
 
-COPY . /apps
+COPY . /pythonapp
 
-CMD [ "python", "rng.py" ]
+CMD [ "python", "bmi.py" ]
   
