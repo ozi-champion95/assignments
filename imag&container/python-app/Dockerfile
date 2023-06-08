@@ -1,8 +1,8 @@
 FROM python 
 
-WORKDIR /pythonapp
+WORKDIR /apps
 
-COPY . /pythonapp
+COPY . /apps
 
 CMD [ "python", "rng.py" ]
-
+  
