@@ -1,6 +1,6 @@
 FROM python 
 
-WORKDIR /pyhtonapp
+WORKDIR /pythonapp
 
 COPY . /pythonapp
 
